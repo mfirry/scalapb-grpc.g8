@@ -10,3 +10,4 @@ Simple seed to get started with Scala and gRPC using:
 In general you might try this out running: `sbt new mfirry/scalapb-grpc.g8`
 
 This will create a working project structure with two packages: `client` and `server` showing how ScalaPB can be used with grpc in both cases.
+
