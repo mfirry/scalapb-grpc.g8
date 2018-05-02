@@ -1,3 +1,4 @@
+package scalapb.grpc.example
 package server
 
 import scala.concurrent.Future
