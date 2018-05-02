@@ -5,7 +5,7 @@ Simple seed to get started with Scala and gRPC using:
 
 ## Usage
 
-(For more information on how to use [Giter8](http://www.foundweekends.org/giter8/) templates with sbt have a look at https://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html.)
+(For more information on how to use [Giter8](http://www.foundweekends.org/giter8/) templates with sbt have a look at https://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html)
 
 In general you might try this out running: `sbt new mfirry/scalapb-grpc.g8`
 
