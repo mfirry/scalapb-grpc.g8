@@ -17,5 +17,5 @@ lazy val root = (project in file(".")).
   settings(
     commonSettings,
     scalaPBsettings,
-    name := "ttt"
+    name := "scalaPB-grpc-example"
   )

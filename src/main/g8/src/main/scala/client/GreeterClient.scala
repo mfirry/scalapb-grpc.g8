@@ -1,3 +1,4 @@
+package scalapb.grpc.example
 package client
 
 import io.grpc.ManagedChannelBuilder
