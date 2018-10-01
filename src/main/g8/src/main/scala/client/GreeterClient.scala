@@ -10,10 +10,13 @@ object GreeterClient {
 
   val channel =
     ManagedChannelBuilder.forAddress(host, port).usePlaintext(true).build
-  val request = HelloRequest(name = "Pippo")
+  val request = HelloRequest(name = "Foo")
 
   val blockingStub = GreeterGrpc.blockingStub(channel)
   val reply: HelloReply = blockingStub.sayHello(request)
+
   println(reply)
+
+  // Just for test. Remove following line
   Thread.sleep(10000)
 }
