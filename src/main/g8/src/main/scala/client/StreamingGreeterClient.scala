@@ -15,7 +15,7 @@ object StreamingGreeterClient {
   val stub = StreamingGreeterGrpc.stub(channel)
   stub.sayHelloStreaming(new StreamObserver[HelloReply] {
     def onNext(value: HelloReply): Unit = {
-      println(s"Got HelloReply: $value")
+      println(s"Got HelloReply: \$value")
     }
 
     def onError(t: Throwable): Unit = ???
