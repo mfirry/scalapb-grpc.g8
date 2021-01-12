@@ -10,7 +10,7 @@ lazy val scalaPBsettings = Seq(
 )
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.11.7"
+  scalaVersion := "2.13.4"
 )
 
 lazy val root = (project in file(".")).
