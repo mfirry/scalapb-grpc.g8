@@ -1,6 +1,6 @@
 lazy val scalaPBsettings = Seq(
   PB.targets in Compile := Seq(
-    scalapb.gen() -> (sourceManaged in Compile).value
+    scalapb.gen() -> (sourceManaged in Compile).value / "scalapb"
   ),
   libraryDependencies ++= Seq(
     "com.thesamet.scalapb" %% "scalapb-runtime" % scalapb.compiler.Version.scalapbVersion % "protobuf",
