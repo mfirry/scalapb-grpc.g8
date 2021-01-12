@@ -9,7 +9,7 @@ object RouteGuideClient {
   val port = 50051
 
   val channel =
-    ManagedChannelBuilder.forAddress(host, port).usePlaintext(true).build
+    ManagedChannelBuilder.forAddress(host, port).usePlaintext().build
 
   val point = Point(37, 15)
 

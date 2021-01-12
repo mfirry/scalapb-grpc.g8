@@ -10,7 +10,7 @@ object StreamingGreeterClient {
   val port = 50051
 
   val channel =
-    ManagedChannelBuilder.forAddress(host, port).usePlaintext(true).build
+    ManagedChannelBuilder.forAddress(host, port).usePlaintext().build
 
   val stub = StreamingGreeterGrpc.stub(channel)
   stub.sayHelloStreaming(new StreamObserver[HelloReply] {
