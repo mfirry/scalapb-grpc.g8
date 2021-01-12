@@ -4,6 +4,7 @@
 lazy val root = (project in file(".")).
   settings(
     name := """scalaPB-gRPC-seed""",
+    version := "0.1.0-SNAPSHOT"
     test in Test := {
       val _ = (g8Test in Test).toTask("").value
     },
